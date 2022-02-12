@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: blue;
+}
+.block {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.blue {
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+hr {
+    height: 1px;
+    border: 0;
+    background-color: blue;
+}
+input {
+    margin: 10px;
+    padding: 3px;
+    height: 35px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    color: blue;
+}
+.btn {
+    margin: 0 auto;
+    padding: 9px 14px;
+    max-width: 150px;
+    border: 2px solid blue;
+    border-radius: 7px;
+    background-color: #fff;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+    width: 85px;
+}
+
+
